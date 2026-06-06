@@ -1,0 +1,12 @@
+$include /etc/inputrc
+"\e[A":history-search-backward
+"\e[B":history-search-forward
+"\e[3;5~":kill-word
+"\C-h":backward-kill-word
+
+set completion-ignore-case on
+set completion-prefix-display-length 5
+set mark-symlinked-directories on
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+
