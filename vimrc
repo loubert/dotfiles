@@ -86,3 +86,6 @@ inoremap kj <Esc>
 inoremap <C-U> <C-G>u<C-U>
 inoremap <C-W> <C-G>u<C-W>
 
+" Togglers
+nnoremap <leader>tw :set wrap!<CR>
+
